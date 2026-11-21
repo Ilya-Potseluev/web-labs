@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+@layer components {
+	input,
+	textarea,
+	.rnd {
+		@apply rounded border px-2.5 py-1.5;
+	}
+}
